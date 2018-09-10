@@ -1,0 +1,21 @@
+git --version   		//to know version
+
+git clone https://github.com/RockyVamshi/carrot-halwa.git	// to copy the repo from central to local for the first time
+
+git add *  or   git add b.txt   ///to add files to stageing area
+
+git commit -m "message"			//to add files to local repo from staging area
+
+git push origin master    // to add files from local to central repo
+
+git pull origin master   // to copy files from central to local repo
+
+origin     	/// alias name for your git repo url
+
+master    // it is a branch name  / master is the default branch / top level branch created when we create a repo
+
+git status    ///  it show status of files
+
+git log   or   git log a.txt       /// its shows all commits we have done
+
+git checkout commit-id file name	/// to rollback a file to previous commit related to commit id
